@@ -1,3 +1,24 @@
 .footer {
-  //
+  .container {
+    display: flex;
+
+    .left {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+
+      .desc {
+        margin: 20px 0px;
+      }
+
+      .soialcontainer {
+        display: flex;
+      }
+
+      .soialicon {
+        width: 40px;
+      }
+    }
+  }
 }

@@ -1,33 +1,31 @@
 import React from 'react'
-import "./Register.scss"
+import "../Login/Login.scss"
 
 const Register = () => {
   return (
-    <div className='register'>
-        <form action="">
-            <label htmlFor="">Nombre (s): </label>
-            <input type="name"/>
+    <div className='login'>
+      <div className='container'>
+        <div className='wrapper'>
+          <div classname="title">Registrarse</div>
+          <form action="POST">
+            <input classname="in" type="name" placeholder="Nombre (s)"/>
             <br />
-            <label htmlFor="">Apellido Paterno: </label>
-            <input type="name"/>
+            <input classname="in" type="name" placeholder="Apellido Paterno"/>
             <br />
-            <label htmlFor="">Apellido Materno: </label>
-            <input type="name"/>
+            <input classname="in" type="name" placeholder="Apellido Materno"/>
             <br />
-            <label htmlFor="">Correo electrónico: </label>
-            <input type="email"/>
+            <input classname="in" type="email" placeholder="Correo electrónico"/>
             <br />
-            <label htmlFor="">Contraseña:  </label>
-            <input type="password"/>
+            <input classname="in" type="password" placeholder="Contraseña"/>
             <br />
-            <label htmlFor="">Confirmar Contraseña: </label>
-            <input type="password"/>
+            <input classname="in" type="password" placeholder="Confirmar Contraseña"/>
             <br />
-            <label htmlFor="">Nombre de Usuario: </label>
-            <input type="name"/>
+            <input classname="in" type="name" placeholder="Nombre de Usuario"/>
             <br />
-            <button>Registrarse</button>
+            <button classname="agreement">Registrarse</button>
         </form>
+       </div>
+      </div>
     </div>
   )
 }
